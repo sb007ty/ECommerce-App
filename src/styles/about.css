@@ -1,0 +1,26 @@
+.about {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  /* place-content: center; */
+}
+
+.item {
+  /* display: grid; */
+}
+/* | | | | */
+
+.about p {
+  grid-row: 1;
+  grid-column: 2/5;
+  text-align: center;
+}
+.about-products1 {
+  grid-row: 2;
+}
+.about h4 {
+  text-align: center;
+}

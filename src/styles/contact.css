@@ -1,0 +1,25 @@
+.contact {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  height: 100vh;
+  gap: 50px;
+}
+
+.contact a:hover {
+  background-color: beige;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+ul li {
+  margin: 10px;
+}
+
+h3 {
+  margin-bottom: 50px;
+}
